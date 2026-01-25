@@ -13,6 +13,8 @@ public class Absolute {
         System.out.print("Enter a integer: ");
         int n = scanner.nextInt();
 
+        System.out.println("Absolute value: " + absolute(n));
+        
         scanner.close();
     }
 }
