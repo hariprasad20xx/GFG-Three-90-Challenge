@@ -14,6 +14,8 @@ public class TemperatureConverter {
         double temperature = scanner.nextDouble();
 
         double result = cToF(temperature);
+
+        System.out.println("Temperature in Farenheit: " + result);
         scanner.close();
     }
 }
