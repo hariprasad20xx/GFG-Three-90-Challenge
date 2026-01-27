@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class TemperatureConverter {
     // Program to convert temperature
     
-    public static double cToF(int C) {
+    public static double cToF(double C) {
         return 0.0;
     }
 
@@ -12,6 +12,8 @@ public class TemperatureConverter {
 
         System.out.print("Enter temperature in celsius: ");
         double temperature = scanner.nextDouble();
+
+        double result = cToF(temperature);
         scanner.close();
     }
 }
