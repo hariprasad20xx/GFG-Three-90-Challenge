@@ -26,6 +26,7 @@ public class QuadraticRoots {
         int b = scanner.nextInt();
         int c = scanner.nextInt();
 
+        ArrayList<Integer> results = findRoots(a, b, c);
         
         scanner.close();
     }
