@@ -28,6 +28,12 @@ public class QuadraticRoots {
 
         ArrayList<Integer> results = findRoots(a, b, c);
         
+        if (results.get(0) == -1) {
+            System.out.println("The roots are imaginary.");
+        } else {
+            System.out.println("The roots are: " + results.get(0) + " " + results.get(1));
+        }
+        
         scanner.close();
     }
 }
