@@ -21,6 +21,12 @@ public class QuadraticRoots {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        System.out.print("Enter the constants a, b and c separated by space: ");
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = scanner.nextInt();
+
+        
         scanner.close();
     }
 }
