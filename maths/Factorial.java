@@ -8,17 +8,21 @@ public class Factorial {
         }
 
         int fact = 1;
+        // calculate factorial
         for (int i = 2; i <= n; i++) {
-            fact *= i;
+            fact *= i; 
         }
 
         return fact;
     }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter a positive integer: ");
         int n = scanner.nextInt();
+
+        System.out.println("Factorial of " + n + " is: " + factorial(n));
 
         scanner.close();
     }
