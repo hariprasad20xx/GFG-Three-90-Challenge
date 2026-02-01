@@ -11,7 +11,7 @@ public class DigitsInFactorial {
         }
         
         numOfDigits = (int)Math.floor(logSum) + 1;
-        
+
         return numOfDigits;
     }
 
@@ -21,6 +21,8 @@ public class DigitsInFactorial {
         System.out.print("Enter an integer: ");
         int n = scanner.nextInt();
 
+        int digits = digitsInFactorial(n);
+        
         scanner.close();
     }
 }
