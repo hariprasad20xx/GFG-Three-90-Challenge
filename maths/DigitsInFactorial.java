@@ -21,9 +21,7 @@ public class DigitsInFactorial {
         System.out.print("Enter an integer: ");
         int n = scanner.nextInt();
 
-        int digits = digitsInFactorial(n);
-
-        System.out.println("Digits in factorial of " + n + " is " + digits);
+        System.out.println("Digits in factorial of " + n + " is " + digitsInFactorial(n));
         scanner.close();
     }
 }
