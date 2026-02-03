@@ -12,7 +12,7 @@ public class PrimeNumber {
                 return false;
             }
         }
-        
+
         return true;
     }
     public static void main(String[] args) {
@@ -21,6 +21,12 @@ public class PrimeNumber {
         System.out.print("Enter a positive integer: ");
         int n = scanner.nextInt();
 
+        if (isPrime(n)) {
+            System.out.println(n + " is a prime number");
+        } else {
+            System.out.println(n + " is not a prime number");
+        }
+        
         scanner.close();
     }
 }
