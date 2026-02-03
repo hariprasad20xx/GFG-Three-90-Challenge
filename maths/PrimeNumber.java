@@ -3,6 +3,10 @@ import java.util.Scanner;
 public class PrimeNumber {
     // Program to check whether a number is prime or not
     public static boolean isPrime(int n) {
+        if (n <= 1) {
+            return false;
+        }
+        
         return true;
     }
     public static void main(String[] args) {
