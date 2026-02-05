@@ -4,9 +4,16 @@ import java.util.Scanner;
 
 public class PrintOneToN {
     // Program to print 1 to N using recursion
-    public static void printNumbers(int N) {
-        
+    public static void printNumbers(int n) {
+        if (n == 0) {
+            return;
+        }
+
+        printNumbers(n - 1);
+
+        System.out.println(n);
     }
+
     public static void main(String[] agrs) {
         Scanner scanner = new Scanner(System.in);
 
