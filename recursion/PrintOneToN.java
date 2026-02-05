@@ -8,6 +8,9 @@ public class PrintOneToN {
     public static void main(String[] agrs) {
         Scanner scanner = new Scanner(System.in);
 
+        System.out.print("Enter the value of N: ");
+        int n = scanner.nextInt();
+        
         scanner.close();
     }
 }
