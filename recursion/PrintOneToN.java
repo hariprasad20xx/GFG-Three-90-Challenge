@@ -9,6 +9,7 @@ public class PrintOneToN {
             return;
         }
 
+        // recursive function call
         printNumbers(n - 1);
 
         System.out.println(n);
@@ -21,7 +22,7 @@ public class PrintOneToN {
         int n = scanner.nextInt();
 
         printNumbers(n);
-        
+
         scanner.close();
     }
 }
