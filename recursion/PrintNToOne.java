@@ -20,6 +20,8 @@ public class PrintNToOne {
         System.out.print("Enter the value of N: ");
         int n = scanner.nextInt();
         
+        printNumbers(n);
+        
         scanner.close();
     }
 }
