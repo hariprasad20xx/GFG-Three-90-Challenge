@@ -18,6 +18,8 @@ public class NaturalSum {
         System.out.print("Enter the value of N: ");
         int n = scanner.nextInt();
 
+        System.out.println("Sum: " + sum(n));
+
         scanner.close();
     }
 }
