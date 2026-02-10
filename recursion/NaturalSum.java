@@ -5,8 +5,13 @@ import java.util.Scanner;
 public class NaturalSum {
     // Program to print sum of N natural numbers using recursion
     public static int sum(int n) {
-        return n;
+        if (n == 1) {
+            return 1;
+        }
+
+        return n + sum(n - 1);
     }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
