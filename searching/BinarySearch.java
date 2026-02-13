@@ -18,6 +18,8 @@ public class BinarySearch {
             arr[i] = scanner.nextInt();
         }
 
+        System.out.print("Enter the element to search in the array: ");
+        int key = scanner.nextInt();
 
         scanner.close();
     }
