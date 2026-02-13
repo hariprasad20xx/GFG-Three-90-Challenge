@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class BinarySearch {
     // Program to implement binary search
 
+    static int binarySearch(int[] arr, int k) {
+        return -1;
+    }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -21,6 +24,7 @@ public class BinarySearch {
         System.out.print("Enter the element to search in the array: ");
         int key = scanner.nextInt();
 
+        
         scanner.close();
     }
 }
