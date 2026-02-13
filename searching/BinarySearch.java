@@ -8,9 +8,10 @@ public class BinarySearch {
     static int binarySearch(int[] arr, int k) {
         int low = 0;
         int high = arr.length - 1;
-        int mid = (low + high) / 2;
 
         while (low <= high) {
+            int mid = (low + high) / 2;
+
             if (k == arr[mid]) {
                 return mid;
             } else if (k < arr[mid]) {
@@ -38,6 +39,14 @@ public class BinarySearch {
 
         System.out.print("Enter the element to search in the array: ");
         int key = scanner.nextInt();
+        
+        int result = binarySearch(arr, key);
+
+        if (result == -1) {
+            System.out.println(key + " is not found!");
+        } else {
+            System.out.println(key + " is found at index " + result + ".");
+        }
         
         scanner.close();
     }
