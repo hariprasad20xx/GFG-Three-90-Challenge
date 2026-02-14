@@ -6,6 +6,8 @@ public class LargestElement {
     // Program to find largest element in an array
 
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
+        scanner.close();
     }
 }
