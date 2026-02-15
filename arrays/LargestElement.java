@@ -29,6 +29,8 @@ public class LargestElement {
             arr[i] = scanner.nextInt();
         }
 
+        System.out.println("Largest Element: " + findLargest(arr));
+
         scanner.close();
     }
 }
