@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class SecondLargest {
     // Program to find the second largest element in an array
 
+    static int secondLargest(int[] arr) {
+        return -1;
+    }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
