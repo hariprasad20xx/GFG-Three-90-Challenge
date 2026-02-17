@@ -20,6 +20,7 @@ public class SecondLargest {
 
         return secondLargest;
     }
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -31,6 +32,12 @@ public class SecondLargest {
         System.out.print("Enter " + n + " elements for the array: ");
         for (int i = 0; i < n; i++) {
             arr[i] = scanner.nextInt();
+        }
+
+        if (secondLargest(arr) < 0) {
+            System.out.println("Second largest element doesn't exist");
+        } else {
+            System.out.println("Second largest element is: " + secondLargest(arr));
         }
 
         scanner.close();
