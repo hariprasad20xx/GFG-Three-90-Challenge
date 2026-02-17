@@ -6,7 +6,19 @@ public class SecondLargest {
     // Program to find the second largest element in an array
 
     static int secondLargest(int[] arr) {
-        return -1;
+        int largest = arr[0];
+        int secondLargest = -1;
+
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] > largest) {
+                secondLargest = largest;
+                largest = arr[i];
+            } else if (arr[i] > secondLargest && arr[i] != largest) {
+                secondLargest = arr[i];
+            }
+        }
+
+        return secondLargest;
     }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
