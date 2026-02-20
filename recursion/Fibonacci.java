@@ -1,5 +1,7 @@
 package recursion;
 
+import java.util.Scanner;
+
 public class Fibonacci {
     // Program to find Nth fibonacci number
 
