@@ -8,9 +8,12 @@ public class Fibonacci {
     static int fibonacci(int n) {
         return 0;
     }
-    
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the fibonacci term number: ");
+        int n = scanner.nextInt();
 
         scanner.close();
     }
