@@ -15,6 +15,8 @@ public class Fibonacci {
         System.out.print("Enter the fibonacci term number: ");
         int n = scanner.nextInt();
 
+        System.out.println("Fibonacci number is: " + fibonacci(n));
+
         scanner.close();
     }
 }
