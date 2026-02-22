@@ -17,6 +17,9 @@ public class LinearSearch {
         for (int i = 0; i < n; i++) {
             arr[i] = scanner.nextInt();
         }
+
+        System.out.print("Enter the key: ");
+        int key = scanner.nextInt();
         
         scanner.close();
     }
