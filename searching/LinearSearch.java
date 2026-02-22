@@ -12,7 +12,7 @@ public class LinearSearch {
                 return i;
             }
         }
-        
+
         return -1;
     }
 
@@ -32,6 +32,13 @@ public class LinearSearch {
         System.out.print("Enter the key: ");
         int key = scanner.nextInt();
 
+        int result = search(arr, key);
+        if (result == -1) {
+            System.out.println(key + " is not found");
+        } else {
+            System.out.println(key + " is found at index " + result);
+        }
+        
         scanner.close();
     }
 }
