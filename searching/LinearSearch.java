@@ -5,6 +5,10 @@ import java.util.Scanner;
 public class LinearSearch {
     // Program to search an element in array using Linear Search
 
+    static int search(int[] arr, int key) {
+        return -1;
+    }
+    
     public static void main(String[] agrs) {
         Scanner scanner = new Scanner(System.in);
 
@@ -20,7 +24,7 @@ public class LinearSearch {
 
         System.out.print("Enter the key: ");
         int key = scanner.nextInt();
-        
+
         scanner.close();
     }
 }
