@@ -5,6 +5,10 @@ import java.util.Scanner;
 public class RecursiveBinarySearch {
     // Program to find element in an array using binary search
 
+    static int binarySearch(int[] arr, int l, int r, int x) {
+        return -1;
+    }
+    
     public static void main(String[] agrs) {
         Scanner scanner = new Scanner(System.in);
 
@@ -20,7 +24,7 @@ public class RecursiveBinarySearch {
 
         System.out.print("Enter the key: ");
         int key = scanner.nextInt();
-        
+
         scanner.close();
     }
 }
