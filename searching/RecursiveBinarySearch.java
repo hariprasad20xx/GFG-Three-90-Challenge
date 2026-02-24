@@ -18,6 +18,9 @@ public class RecursiveBinarySearch {
             arr[i] = scanner.nextInt();
         }
 
+        System.out.print("Enter the key: ");
+        int key = scanner.nextInt();
+        
         scanner.close();
     }
 }
