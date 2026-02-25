@@ -37,6 +37,14 @@ public class RecursiveBinarySearch {
         System.out.print("Enter the key: ");
         int key = scanner.nextInt();
 
+        int result = binarySearch(arr, 0, n - 1, key);
+
+        if (result == -1) {
+            System.out.println(key + " is not found!");
+        } else {
+            System.out.println(key + " is found at index " + result);
+        }
+
         scanner.close();
     }
 }
