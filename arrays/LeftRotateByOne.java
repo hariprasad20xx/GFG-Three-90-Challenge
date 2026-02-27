@@ -28,6 +28,8 @@ public class LeftRotateByOne {
             arr[i] = scanner.nextInt();
         }
 
+        leftRotate(arr);
+
         scanner.close();
     }
 }
