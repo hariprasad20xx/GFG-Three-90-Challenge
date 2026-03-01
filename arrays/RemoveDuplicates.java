@@ -12,6 +12,11 @@ public class RemoveDuplicates {
         int n = scanner.nextInt();
 
         int[] arr = new int[n];
+
+        System.out.print("Enter " + n + " elements for the array in sorted order: ");
+        for (int i = 0; i < n; i++) {
+            arr[i] = scanner.nextInt();
+        }
         
         scanner.close();
     }
