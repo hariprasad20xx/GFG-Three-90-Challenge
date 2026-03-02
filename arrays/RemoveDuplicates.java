@@ -35,6 +35,14 @@ public class RemoveDuplicates {
         }
 
         n = removeDuplicates(arr, n);
+
+        System.out.print("Array after removing duplicates: ");
+
+        for(int i = 0; i < n; i++) {
+            System.out.print(arr[i] + " ");
+        }
+
+        System.out.println();
         
         scanner.close();
     }
