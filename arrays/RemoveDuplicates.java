@@ -5,6 +5,10 @@ import java.util.Scanner;
 public class RemoveDuplicates {
     // Program to remove duplicates in a sorted array
 
+    static void removeDuplicates(int[] arr, int n) {
+
+    }
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
