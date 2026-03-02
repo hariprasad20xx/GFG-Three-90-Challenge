@@ -6,7 +6,19 @@ public class RemoveDuplicates {
     // Program to remove duplicates in a sorted array
 
     static int removeDuplicates(int[] arr, int n) {
-        return 0;
+
+        int res = 1;
+
+    	for(int i = 1; i < n; i++)
+    	{
+    		if(arr[res - 1] != arr[i])
+    		{
+    			arr[res] = arr[i];
+    			res++;
+    		}
+    	}
+
+    	return res;
     }
 
     public static void main(String[] args) {
