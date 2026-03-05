@@ -6,7 +6,15 @@ public class ZeroesToEnd {
     // Program to move zeroes in an array to end
     
     static void moveZeroesToEnd(int[] arr) {
+        int count = 0;
 
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] != 0) {
+                int temp = arr[i];
+                arr[i] = arr[count];
+                arr[count] = temp;
+            }
+        }
     }
 
     public static void main(String[] args) {
