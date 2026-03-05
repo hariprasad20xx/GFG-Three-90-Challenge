@@ -13,6 +13,8 @@ public class ZeroesToEnd {
                 int temp = arr[i];
                 arr[i] = arr[count];
                 arr[count] = temp;
+
+                count++;
             }
         }
     }
@@ -30,6 +32,8 @@ public class ZeroesToEnd {
             arr[i] = scanner.nextInt();
         }
 
+        moveZeroesToEnd(arr);
+        
         scanner.close();
     }
 }
