@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class ZeroesToEnd {
     // Program to move zeroes in an array to end
+    
+    static void moveZeroesToEnd(int[] arr) {
+
+    }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
