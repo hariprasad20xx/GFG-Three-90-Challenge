@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class BettingGame {
 
     static int betBalance(String s) {
+        int balance = 4;
+        int betAmount = 1;
+        
         return 0;
     }
     public static void main(String[] args) {
