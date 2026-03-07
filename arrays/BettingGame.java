@@ -17,10 +17,13 @@ public class BettingGame {
             if (s.charAt(i) == 'W') {
                 balance += betAmount;
                 betAmount = 1;
-            } else {
+            } else if (s.charAt(i) == 'L'){
                 balance -= betAmount;
                 betAmount *= 2;
-            } 
+            } else {
+                System.out.println("Invalid input! Please enter a string containing only 'W' and 'L'.");
+                return 0;
+            }
         }
 
         return balance;
