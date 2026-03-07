@@ -28,6 +28,7 @@ public class BettingGame {
 
         return balance;
     }
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -35,6 +36,16 @@ public class BettingGame {
         String gameString = scanner.next();
 
         int result = betBalance(gameString);
+
+        if (result == 0) {
+            scanner.close();
+            return;
+        } else if (result == -1){
+            System.out.println("Insufficient balance!");
+        } else {
+            System.out.println("Bet balance: " + result);
+        }
+
         scanner.close();
     }   
 }
