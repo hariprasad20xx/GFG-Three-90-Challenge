@@ -8,7 +8,22 @@ public class BettingGame {
         int balance = 4;
         int betAmount = 1;
         
-        return 0;
+        for (int i = 0; i < s.length(); i++) {
+            
+            if (balance < 0 || balance < betAmount) {
+                return -1;
+            }
+            
+            if (s.charAt(i) == 'W') {
+                balance += betAmount;
+                betAmount = 1;
+            } else {
+                balance -= betAmount;
+                betAmount *= 2;
+            } 
+        }
+
+        return balance;
     }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
