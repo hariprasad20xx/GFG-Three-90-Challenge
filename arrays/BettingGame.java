@@ -13,6 +13,7 @@ public class BettingGame {
         System.out.print("Enter a string containing only 'W' and 'L' (without space): ");
         String gameString = scanner.next();
 
+        int result = betBalance(gameString);
         scanner.close();
     }   
 }
