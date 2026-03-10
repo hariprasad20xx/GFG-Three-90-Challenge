@@ -33,6 +33,14 @@ public class StrongestNeighbour {
         }
 
         ArrayList<Integer> result = maxAdjacent(arr);
+
+        System.out.print("Strongest Neighbours: ");
+        for (int i : result) {
+            System.out.print(i + " ");
+        }
+
+        System.out.println();
+
         scanner.close();
     }
 }
