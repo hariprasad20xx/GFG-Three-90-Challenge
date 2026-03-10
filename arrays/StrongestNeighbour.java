@@ -6,9 +6,19 @@ import java.util.Scanner;
 public class StrongestNeighbour {
 
     static ArrayList<Integer> maxAdjacent(int[] arr) {
-        return new ArrayList<>();
+        ArrayList<Integer> strongNeighbours = new ArrayList<>();
+        
+        for (int i = 0; i < arr.length - 1; i++) {
+            if (arr[i + 1] > arr[i]) {
+                strongNeighbours.add(arr[i + 1]);
+            } else {
+                strongNeighbours.add(arr[i]);
+            }
+        }
+        
+        return strongNeighbours;
     }
-    
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
