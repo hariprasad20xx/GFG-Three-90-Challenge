@@ -1,9 +1,14 @@
 package arrays;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class StrongestNeighbour {
 
+    static ArrayList<Integer> maxAdjacent(int[] arr) {
+        return new ArrayList<>();
+    }
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
