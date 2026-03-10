@@ -32,6 +32,7 @@ public class StrongestNeighbour {
             arr[i] = scanner.nextInt();
         }
 
+        ArrayList<Integer> result = maxAdjacent(arr);
         scanner.close();
     }
 }
