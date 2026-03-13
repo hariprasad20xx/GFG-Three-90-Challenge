@@ -37,6 +37,9 @@ public class MeanAndMedian {
             arr[i] = scanner.nextInt();
         }
 
+        int mean = mean(arr);
+        int median = median(arr);
+
         scanner.close();
     }
 }
