@@ -5,7 +5,12 @@ import java.util.Scanner;
 public class MeanAndMedian {
 
     static int mean(int[] arr) {
-        return 0;
+        int sum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            sum += arr[i];
+        }
+        
+        return sum / arr.length;
     }
 
     static int median(int[] arr) {
