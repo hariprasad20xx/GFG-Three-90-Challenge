@@ -40,6 +40,8 @@ public class MeanAndMedian {
         int mean = mean(arr);
         int median = median(arr);
 
+        System.out.println("Mean = " + mean + ", Median = " + median);
+
         scanner.close();
     }
 }
