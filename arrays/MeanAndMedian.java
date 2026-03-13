@@ -1,5 +1,6 @@
 package arrays;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class MeanAndMedian {
@@ -14,7 +15,14 @@ public class MeanAndMedian {
     }
 
     static int median(int[] arr) {
-        return 0;
+        Arrays.sort(arr);
+        
+        int n = arr.length;
+        if (n % 2 == 0) {
+            return (arr[n/2] + arr[n/2 - 1]) / 2;
+        } else {
+            return arr[n/2];
+        }
     }
     public static void main(String[] agrs) {
         Scanner scanner = new Scanner(System.in);
