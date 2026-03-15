@@ -5,6 +5,10 @@ import java.util.Scanner;
 public class LeftRotateByD {
     // Program to rotate an array by D places
     static void leftRotate(int[] arr, int n, int d) {
+
+    }
+
+    static void reverse(int[] arr, int low, int high) {
         
     }
 
