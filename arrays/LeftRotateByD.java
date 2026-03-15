@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class LeftRotateByD {
     // Program to rotate an array by D places
+    static void leftRotate(int[] arr, int n, int d) {
+        
+    }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
