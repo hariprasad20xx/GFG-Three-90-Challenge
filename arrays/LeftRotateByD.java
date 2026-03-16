@@ -37,6 +37,8 @@ public class LeftRotateByD {
         System.out.println("Enter the number of left rotations (D): "   );
         int d = scanner.nextInt();
 
+        leftRotate(arr, n, d);
+
         scanner.close();
     }
 }
