@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class CountDigits {
 
+    static int countDigits(int n) {
+        return 0;
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
