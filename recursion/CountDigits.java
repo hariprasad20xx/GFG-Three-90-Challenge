@@ -14,6 +14,8 @@ public class CountDigits {
         System.out.print("Enter a number: ");
         int n = scanner.nextInt();
 
+        int digits = countDigits(n);
+
         scanner.close();
     }
 }
