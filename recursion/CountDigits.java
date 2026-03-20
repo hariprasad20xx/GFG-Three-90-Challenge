@@ -8,7 +8,8 @@ public class CountDigits {
         if (n < 10) {
             return 1;
         }
-        return 0;
+
+        return 1 + countDigits(n / 10);
     }
 
     public static void main(String[] args) {
