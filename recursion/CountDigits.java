@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class CountDigits {
 
     static int countDigits(int n) {
+        if (n < 10) {
+            return 1;
+        }
         return 0;
     }
 
