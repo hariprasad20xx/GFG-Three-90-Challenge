@@ -40,6 +40,10 @@ public class ArrayLeaders {
         }
 
         ArrayList<Integer> result = leaders(arr);
+        for (int res : result) {
+            System.out.print(res + " ");
+        }
+        System.out.println();
 
         scanner.close();
     }
