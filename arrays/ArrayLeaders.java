@@ -22,7 +22,7 @@ public class ArrayLeaders {
                 result.add(maxRight);
             }
         }
-        
+
         return result;
     }
 
@@ -38,6 +38,8 @@ public class ArrayLeaders {
         for (int i = 0; i < n; i++) {
             arr[i] = scanner.nextInt();
         }
+
+        ArrayList<Integer> result = leaders(arr);
 
         scanner.close();
     }
