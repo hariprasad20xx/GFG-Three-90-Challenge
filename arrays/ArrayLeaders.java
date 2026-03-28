@@ -7,6 +7,21 @@ public class ArrayLeaders {
     
     static ArrayList<Integer> leaders(int[] arr) {
         ArrayList<Integer> result = new ArrayList<>();
+        int n = arr.length;
+
+        // Start with the rightmost element
+        int maxRight = arr[n - 1];
+
+        // Rightmost element is always a leader
+        result.add(maxRight);
+
+        // Traverse the array from right to left
+        for (int i = n - 2; i >= 0; i--) {
+            if (arr[i] >= maxRight) {
+                maxRight = arr[i];
+                result.add(maxRight);
+            }
+        }
         
         return result;
     }
