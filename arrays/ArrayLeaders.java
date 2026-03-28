@@ -6,8 +6,9 @@ import java.util.Scanner;
 public class ArrayLeaders {
     
     static ArrayList<Integer> leaders(int[] arr) {
-
-        return new ArrayList<>();
+        ArrayList<Integer> result = new ArrayList<>();
+        
+        return result;
     }
 
     public static void main(String[] args) {
