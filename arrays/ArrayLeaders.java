@@ -5,7 +5,11 @@ import java.util.Scanner;
 
 public class ArrayLeaders {
     
-    
+    static ArrayList<Integer> leaders(int[] arr) {
+
+        return new ArrayList<>();
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
