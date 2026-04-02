@@ -6,6 +6,9 @@ public class SquareRoot {
     // Program to find square of a given number
 
     static int floorSqrt(int n) {
+        if (n == 0 || n == 1)
+			return n;
+
         return n;
     }
 
