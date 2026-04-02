@@ -24,6 +24,8 @@ public class SquareRoot {
         System.out.print("Enter an integer: ");
         int n = scanner.nextInt();
 
+        System.out.println("Square root of " + n + ": " + floorSqrt(n));
+
         scanner.close();
     }
 }
