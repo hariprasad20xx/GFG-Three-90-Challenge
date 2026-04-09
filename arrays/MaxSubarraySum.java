@@ -12,6 +12,11 @@ public class MaxSubarraySum {
 
         int[] arr = new int[n];
 
+        System.out.print("Enter " + n + " elements for the array: ");
+        for (int i = 0; i < n; i++) {
+            arr[i] = scanner.nextInt();
+        }
+
         scanner.close();
     }
 }
