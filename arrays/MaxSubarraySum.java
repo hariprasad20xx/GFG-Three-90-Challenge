@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class MaxSubarraySum {
 
+    static void subarrayMaxSum(int[] arr) {
+        
+    }
+
     public static void main(String[] agrs) {
         Scanner scanner = new Scanner(System.in);
 
