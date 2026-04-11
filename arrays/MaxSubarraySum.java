@@ -40,6 +40,14 @@ public class MaxSubarraySum {
             // Decrement the start index
             startIndex--;
         }
+
+        // Printing the elements of
+        // subarray with max sum
+        for(int i = startIndex; i <= endIndex; ++i)
+        {
+            System.out.print(arr[i] + " ");
+        }
+        
     }
 
     public static void main(String[] agrs) {
