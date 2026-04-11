@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class MaxSubarraySum {
 
     static void subarrayMaxSum(int[] arr) {
-        
+        int endIndex = 0;
+        int currentMax = arr[0];
+        int globalMax = arr[0];
     }
 
     public static void main(String[] agrs) {
