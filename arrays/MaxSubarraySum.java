@@ -5,9 +5,41 @@ import java.util.Scanner;
 public class MaxSubarraySum {
 
     static void subarrayMaxSum(int[] arr) {
+
         int endIndex = 0;
         int currentMax = arr[0];
         int globalMax = arr[0];
+
+        // Iterate for all the elements of the array
+        for (int i = 1; i < arr.length; ++i)
+        {
+
+            // Update currMax
+            currentMax = Math.max(arr[i], arr[i] + currentMax);
+
+            // Check if currMax is greater
+            // than globalMax
+            if (currentMax > globalMax)
+            {
+                globalMax = currentMax;
+                endIndex = i;
+            }
+        }
+
+        int startIndex = endIndex;
+
+        // Traverse in left direction to
+        // find start Index of subarray
+        while (startIndex >= 0)
+        {
+            globalMax -= arr[startIndex];
+
+            if (globalMax == 0)
+                break;
+
+            // Decrement the start index
+            startIndex--;
+        }
     }
 
     public static void main(String[] agrs) {
