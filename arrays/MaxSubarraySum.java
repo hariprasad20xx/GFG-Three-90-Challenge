@@ -55,6 +55,8 @@ public class MaxSubarraySum {
             arr[i] = scanner.nextInt();
         }
 
+        subarrayMaxSum(arr);
+
         scanner.close();
     }
 }
