@@ -10,6 +10,8 @@ public class LongestEvenOddSubarray {
         System.out.print("Enter the size of the array: ");
         int n = scanner.nextInt();
 
+        int[] arr = new int[n];
+
         scanner.close();
     }  
 }
