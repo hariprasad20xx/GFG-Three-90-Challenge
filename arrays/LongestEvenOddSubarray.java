@@ -30,7 +30,7 @@ public class LongestEvenOddSubarray {
         }
         return maxLength;
     }
-    
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -43,6 +43,9 @@ public class LongestEvenOddSubarray {
         for (int i = 0; i < n; i++) {
             arr[i] = scanner.nextInt();
         }
+
+        int maxLength = maxEvenOdd(arr, arr.length);
+
 
         scanner.close();
     }  
