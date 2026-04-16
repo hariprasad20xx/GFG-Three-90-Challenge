@@ -46,7 +46,8 @@ public class LongestEvenOddSubarray {
 
         int maxLength = maxEvenOdd(arr, arr.length);
 
-
+        System.out.println("Length of longest subarray of even and odds is : " + maxLength);
+                
         scanner.close();
     }  
 }
