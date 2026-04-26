@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class MajorityElement {
 
+    static void printMajority(int[] a, int size) {
+
+    }
+    
     public static void main(String[] agrs) {
         Scanner scanner = new Scanner(System.in);
 
