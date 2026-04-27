@@ -8,6 +8,11 @@ public class MajorityElement {
 
     }
     
+
+    static int findCandidate(int[] a, int size) {
+
+    }
+    
     public static void main(String[] agrs) {
         Scanner scanner = new Scanner(System.in);
 
