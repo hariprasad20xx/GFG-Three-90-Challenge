@@ -12,6 +12,10 @@ public class MajorityElement {
     static int findCandidate(int[] a, int size) {
 
     }
+
+    static boolean isMajority(int a[], int size, int cand) {
+        return true;
+    }
     
     public static void main(String[] agrs) {
         Scanner scanner = new Scanner(System.in);
