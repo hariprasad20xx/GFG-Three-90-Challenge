@@ -5,7 +5,12 @@ import java.util.Scanner;
 public class MajorityElement {
 
     static void printMajority(int[] a, int size) {
-
+        
+        int cand = findCandidate(a, size);
+		if (isMajority(a, size, cand))
+			System.out.println(" " + cand + " ");
+		else
+			System.out.println("No Majority Element");
     }
     
 
