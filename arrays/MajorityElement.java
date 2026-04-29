@@ -32,7 +32,15 @@ public class MajorityElement {
     }
 
     static boolean isMajority(int a[], int size, int cand) {
-        return true;
+        int i, count = 0;
+		for (i = 0; i < size; i++) {
+			if (a[i] == cand)
+				count++;
+		}
+		if (count > size / 2)
+			return true;
+		else
+			return false;
     }
     
     public static void main(String[] agrs) {
