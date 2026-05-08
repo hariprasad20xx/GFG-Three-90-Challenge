@@ -56,8 +56,8 @@ public class MajorityElement {
             arr[i] = scanner.nextInt();
         }
 
-        int size = a.length;
-		majorelement.printMajority(a, size);
+        int size = arr.length;
+		majorelement.printMajority(arr, size);
         
         scanner.close();
     }
