@@ -33,6 +33,8 @@ public class PeakElement {
             arr[i] = scanner.nextInt();
         }
 
+        int result = getPeak(arr, arr.length);
+        
         scanner.close();
     }
 }
