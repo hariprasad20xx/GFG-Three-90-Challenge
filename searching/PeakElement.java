@@ -39,6 +39,12 @@ public class PeakElement {
 
         int result = getPeak(arr, arr.length);
 
+        if (result == -1) {
+            System.out.println("Peak element does not exist!");
+        } else {
+            System.out.println("Peak element: " + result);
+        }
+
         scanner.close();
     }
 }
