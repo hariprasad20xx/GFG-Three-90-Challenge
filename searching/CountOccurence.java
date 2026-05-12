@@ -8,6 +8,9 @@ public class CountOccurence {
         return -1;
     }
 
+    static int lastOcc(int[] arr, int n, int x) {
+        return -1;
+    }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
