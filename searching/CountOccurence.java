@@ -4,10 +4,11 @@ import java.util.Scanner;
 
 public class CountOccurence {
 
-    static int firstOcc(int[] arr) {
+    static int firstOcc(int[] arr, int n, int x) {
         return -1;
     }
-    
+
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
