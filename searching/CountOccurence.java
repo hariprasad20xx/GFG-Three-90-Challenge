@@ -85,6 +85,8 @@ public class CountOccurence {
 
 		System.out.print("Enter the element to count occurences: ");
 		int element = scanner.nextInt();
+
+		System.out.println(countOcc(arr, n, element));
 		
         scanner.close();
     }
