@@ -39,6 +39,8 @@ public class CountOnes {
             arr[i] = scanner.nextInt();
         }
 
+        System.out.println(countOnes(arr, n));
+
         scanner.close();
     }
 }
