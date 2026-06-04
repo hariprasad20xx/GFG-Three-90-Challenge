@@ -22,6 +22,11 @@ public class Median {
 
         int[] arr2 = new int[n2];
 
+        System.out.print("Enter " + n2 + " elements for the array in ascending order: ");
+        for (int i = 0; i < n2; i++) {
+            arr2[i] = scanner.nextInt();
+        }
+
         scanner.close();
     }
 }
