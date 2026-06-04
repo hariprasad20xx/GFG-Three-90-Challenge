@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class Median {
 
+    static double median(int[] A, int[] B) {
+        return 0.0;
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
