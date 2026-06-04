@@ -20,6 +20,8 @@ public class Median {
         System.out.print("Enter the size of the second array: ");
         int n2 = scanner.nextInt();
 
+        int[] arr2 = new int[n2];
+
         scanner.close();
     }
 }
