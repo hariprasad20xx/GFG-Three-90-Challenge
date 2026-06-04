@@ -5,6 +5,12 @@ import java.util.Scanner;
 public class Median {
 
     static double median(int[] A, int[] B) {
+        int n = A.length;
+        int m = B.length;
+        if (n > m) {
+            return median(B, A);
+        }
+        
         return 0.0;
     }
 
