@@ -37,7 +37,7 @@ public class Median {
 			else
 				start = mid + 1;
         }
-        
+
         return 0.0;
     }
 
@@ -63,6 +63,8 @@ public class Median {
         for (int i = 0; i < n2; i++) {
             arr2[i] = scanner.nextInt();
         }
+
+        System.out.println("Median of the two arrays is: " + median(arr1, arr2));
 
         scanner.close();
     }
